@@ -30,7 +30,7 @@ i:hover {
 }
 
 .about-bg {
-  background-image: url("src/assets/earth-bg.jpg");
+  background-image: url("/img/earth-bg.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
