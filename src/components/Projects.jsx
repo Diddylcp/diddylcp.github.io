@@ -9,7 +9,7 @@ function Projects(props) {
       <div
         ref={projects.ref}
         className={` animate__animated ${
-          projects.visible ? projects.animation : ""
+          projects.visible ? projects.animation + " is-visible" : "is-hidden"
         }`}
       >
         <div className="container bg-tertiary pb-5">

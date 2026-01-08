@@ -12,7 +12,7 @@ export function useAnimateOnScroll(animation) {
           observer.disconnect();
         }
       },
-      { threshold: 0.00001 }
+      { threshold: 0.4 }
     );
 
     if (ref.current) observer.observe(ref.current);

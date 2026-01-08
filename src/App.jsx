@@ -4,6 +4,7 @@ import Header from "./components/Header.jsx";
 import Technologies from "./components/Technologies.jsx";
 import Projects from "./components/Projects.jsx";
 import Experiencia from "./components/Experiencia.jsx";
+import Footer from "./components/Footer.jsx";
 
 export function App() {
   return (
@@ -13,7 +14,7 @@ export function App() {
       <Technologies />
       <Projects />
       <Experiencia />
-      <section id="contact-me"></section>
+      <Footer />
     </div>
   );
 }

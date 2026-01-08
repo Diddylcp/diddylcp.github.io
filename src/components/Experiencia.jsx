@@ -35,7 +35,7 @@ function Experiencia() {
       id="experience"
       ref={experience.ref}
       className={`container justify-content-center align-items-center animate__animated py-5 ${
-        experience.visible ? experience.animation : ""
+        experience.visible ? experience.animation + " is-visible" : "is-hidden"
       }`}
     >
       <h2 className="mb-5 fw-bold animate__animated animate__fadeInLeft text-center text-light">

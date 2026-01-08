@@ -25,7 +25,7 @@ function Header() {
   }, []);
 
   return (
-    <div className="container navbar-expand-lg navbar-dark fixed-top bg-dark ">
+    <div className="container-fluid navbar-expand-lg navbar-dark fixed-top bg-dark">
       <header className="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
         <a
           href="/"
@@ -90,16 +90,6 @@ function Header() {
               }`}
             >
               Experiencia
-            </a>
-          </li>
-          <li className="nav-item">
-            <a
-              href="#contact-me"
-              className={`nav-link ${
-                activeSection === "contact-me" ? "active text-black" : ""
-              }`}
-            >
-              Contactame
             </a>
           </li>
         </ul>

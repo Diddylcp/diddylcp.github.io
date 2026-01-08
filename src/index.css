@@ -42,3 +42,17 @@ i:hover {
 .text-justify {
   text-align: justify;
 }
+
+.is-hidden {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.is-visible {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.animate__animated {
+  animation-fill-mode: both;
+}

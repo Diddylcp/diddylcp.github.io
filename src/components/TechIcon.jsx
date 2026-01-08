@@ -23,9 +23,9 @@ function TechIcon({ icon, name, delay }) {
     <div
       ref={ref}
       className={`col-2 text-white text-center animate__animated ${
-        visible ? "animate__fadeInUp" : ""
+        visible ? "animate__fadeInUp is-visible" : "is-hidden"
       }`}
-      style={{ animationDelay: `${delay}ms` }}
+      style={{ animationDelay: delay }}
     >
       <i className={`${icon} display-4`}></i>
       <p className="mt-2">{name}</p>

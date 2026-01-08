@@ -37,7 +37,7 @@ function Technologies() {
       id="technologies"
       ref={tech.ref}
       className={`container justify-content-center align-items-center  py-5 animate__animated ${
-        tech.visible ? tech.animation : ""
+        tech.visible ? tech.animation + " is-visible" : "is-hidden"
       }`}
     >
       <h2 className="text-white text-center mb-5">Tecnologias</h2>
@@ -45,7 +45,7 @@ function Technologies() {
       {splitTechnologies(technologies).map((row, rowIndex) => (
         <div
           key={rowIndex}
-          className="row border border-white rounded align-items-center g-4 my-4"
+          className="row border border-primary rounded align-items-center g-4 my-4"
         >
           {row.map((tech, index) => (
             <TechIcon

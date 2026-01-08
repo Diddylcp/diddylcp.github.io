@@ -8,7 +8,7 @@ function AboutMe() {
       id="about-me"
       ref={about.ref}
       className={`about-bg animate__animated ${
-        about.visible ? about.animation : ""
+        about.visible ? about.animation + " is-visible" : "is-hidden"
       }`}
     >
       <div className=" text-secondary px-4 py-5 text-center vh-100 d-flex align-items-center justify-content-center ">

@@ -11,7 +11,7 @@ const TimelineItem = ({ titulo, empresa, fecha, descripcion, delay }) => {
           observer.disconnect();
         }
       },
-      { threshold: 0.01 }
+      { threshold: 0.5 }
     );
 
     if (ref.current) observer.observe(ref.current);
@@ -22,14 +22,14 @@ const TimelineItem = ({ titulo, empresa, fecha, descripcion, delay }) => {
     <div
       ref={ref}
       className={`timeline-item animate__animated ${
-        visible ? "animate__fadeInUp" : ""
+        visible ? "animate__fadeInUp is-visible" : "is-hidden"
       }`}
       style={{ animationDelay: delay }}
     >
       <div className="timeline-dot"></div>
 
-      <div className="timeline-content card bg-dark text-light shadow">
-        <div className="card-body">
+      <div className="timeline-content card bg-dark text-light shadow rounded">
+        <div className="card-body rounded">
           <h5 className="fw-bold text-warning">{titulo}</h5>
 
           {empresa && <h6 className="text-secondary">{empresa}</h6>}
