@@ -13,7 +13,8 @@ function Projects(props) {
         }`}
       >
         <div className="container bg-tertiary pb-5">
-          <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3 pt-5">
+          <h2 className="text-center text-white">Proyectos</h2>
+          <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3 pt-4">
             <Card
               title="Space Alien"
               description="Juego para plataforma móvil donde eres un alíen que intenta escapar de una base subterránea. Para ello tendrás que ir esquivando los obstáculos mientras intentas ser más rápido que tus compañeros y rivales."

@@ -39,3 +39,6 @@ i:hover {
 .card-body-min-height {
   min-height: 220px;
 }
+.text-justify {
+  text-align: justify;
+}

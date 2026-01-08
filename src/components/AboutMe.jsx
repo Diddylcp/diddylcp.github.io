@@ -20,12 +20,14 @@ function AboutMe() {
             Programador Web y de Videojuegos
           </h2>
           <div className="col-lg-6 mx-auto">
-            <p className="fs-5 mb-4 text-white">
+            <p className="fs-5 mb-4 text-white text-justify">
               Amante de la tecnología, videojuegos y cultura japonesa desde muy
-              joven. Soy un chico introvertido que aunque siempre se le han dado
-              bien la vertiente de ciencias y tecnología, le han interesado el
-              dibujo y la música. Una persona observadora, donde en el trabajo
-              adopto una actitud seria, sistemática y práctica.
+              joven. Me considero una persona responsable y muy motivada para
+              poder crecer profesionalmente, con ganas de iniciar mi carrera
+              como programador full-stack. Afronto este camino con ilusión y
+              compromiso, con el objetivo de demostrar mi capacidad para
+              aprender, adaptarme y afrontar con éxito todo tipo de retos en un
+              sector tan dinámico como el tecnológico.
             </p>
             <div className="d-grid gap-2 d-sm-flex justify-content-sm-center">
               <a href="/Curriculum Vitae Borja Tapia.pdf" download>
