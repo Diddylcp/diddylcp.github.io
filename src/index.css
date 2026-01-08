@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  font-family: system-ui;
+  background: #222;
+  display: grid;
+  place-content: center;
+  min-height: 100vh;
+}
+
+header {
+  color: azure;
+}
+h1 {
+  color: white;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+section {
+  scroll-margin-top: 80px; /* altura de la NavBar */
+}
+
+i {
+  transition: transform 0.3s ease;
+}
+i:hover {
+  transform: scale(1.2);
+}
+
+.about-bg {
+  background-image: url("src/assets/earth-bg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.card-body-min-height {
+  min-height: 220px;
+}
