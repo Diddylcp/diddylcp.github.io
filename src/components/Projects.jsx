@@ -16,8 +16,18 @@ function Projects(props) {
           <h2 className="text-center text-white">Proyectos</h2>
           <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3 pt-4">
             <Card
+              title="Metal Slug"
+              description="Recreación del 1º nivel de Metal Slug utilizando la libreria de Phaser para hacer minijuegos de navegador."
+              downloadUrl="https://diddylcp.github.io/MetalSlugPhaser/"
+              images={[
+                "/img/MetalSlug1.webp",
+                "/img/MetalSlug2.webp",
+                "/img/MetalSlug3.webp",
+              ]}
+            />
+            <Card
               title="Space Alien"
-              description="Juego para plataforma móvil donde eres un alíen que intenta escapar de una base subterránea. Para ello tendrás que ir esquivando los obstáculos mientras intentas ser más rápido que tus compañeros y rivales."
+              description="Endless runner para móvil donde eres un alíen que intenta escapar de una base subterránea. Para ello tendrás que ir esquivando los obstáculos mientras intentas ser más rápido que tus compañeros y rivales."
               downloadUrl="https://surrealboost.itch.io/secret-aliens"
               images={["/img/SpaceAlien.jpg", "/img/SpaceAlien2.gif"]}
             />

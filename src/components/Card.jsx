@@ -73,7 +73,7 @@ function Card(props) {
 
         <div className="card-body card-body-min-height d-flex flex-column">
           <h5>{title}</h5>
-          <p className="card-text flex-grow-1">{description}</p>
+          <p className="card-text flex-grow-1 text-justify">{description}</p>
 
           <a
             href={downloadUrl}
